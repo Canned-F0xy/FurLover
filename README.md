@@ -12,21 +12,21 @@
 
        urllib3
  
-2-1. 필요 내장-표준 라이브러리 (이건 보통 Python 설치하면서 같이 설치되는 라이브러리들 근데 혹시 모르니 남겨둡니다.)
-     
-     tkinter
-     
-     threading
-     
-     time
-     
-     os
-     
-     base64
-     
-     webbrowser
-     
-     random
+   2-1. 필요 내장-표준 라이브러리 (이건 보통 Python 설치하면서 같이 설치되는 라이브러리들 근데 혹시 모르니 남겨둡니다.)
+            
+          tkinter
+            
+          threading
+            
+          time
+            
+          os
+            
+          base64
+            
+          webbrowser
+            
+          random
 
 ## QnA
 
