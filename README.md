@@ -1,4 +1,4 @@
-# FurLover
+# FurLover [e621 Downloader]
 
 
 **우선 해당 프로그램은 테스트적으로 개발된 프로그램임을 알려드립니다.**
