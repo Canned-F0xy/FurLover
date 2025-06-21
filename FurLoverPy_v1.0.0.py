@@ -12,7 +12,7 @@ import random
 class FurLoverPy:
     def __init__(self, root):
         self.root = root
-        self.root.title("FurLoverPy v1.0")
+        self.root.title("FurLoverPy v1.0.0")
         self.root.geometry("800x600")
 
         self.cancel_requested = False
@@ -112,7 +112,7 @@ class FurLoverPy:
             try:
                 username = self.username_entry.get().strip() or "anonymous"
                 suffix = random.randint(1000, 9999)
-                user_agent = f'FurLoverPy/1.0 (by {username} on e621)'
+                user_agent = f'FurLoverPy/1.0.0 (by {username} on e621)'
                 headers = {'User-Agent': user_agent}
                 time.sleep(0.2)
                 res = requests.get('https://e621.net/tags/popular.json', headers=headers, timeout=10)
@@ -155,7 +155,7 @@ class FurLoverPy:
         try:
             self._log("다운로드를 시작합니다...")
 
-            user_agent = f'FurLoverPy/1.0 (by {username or "anonymous"} on e621)'
+            user_agent = f'FurLoverPy/1.0.0 (by {username or "anonymous"} on e621)'
             self._log(f"[DEBUG] User-Agent: {user_agent}")
 
             session = requests.Session()
